@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Todoist Refined",
+  "version": "0.1.0",
+  "description": "Lighter Todoist Dark Theme",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://fr.todoist.com/*"]
+  }]
+ 
+}
